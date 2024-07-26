@@ -1,0 +1,41 @@
+.navbar{
+    position: absolute;
+    height: 8%;
+    width: 100%;
+    color: azure;
+    display: flex;
+    font-size: x-large;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btnnav{
+    margin-inline: 0.5rem;
+    height: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        color: #191970;
+        background-color: aliceblue;
+        transform: skew(20deg);
+        span {
+            transform: skew(-20deg);
+        }
+    }
+}
+.navtext{
+    width: 6.8rem;
+    align-content: center;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+.activa{
+    background-color: aliceblue;
+    color: #191970;        
+    transform: skew(20deg);
+    span {
+        transform: skew(-20deg);
+    }
+}
