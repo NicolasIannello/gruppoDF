@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Barlow:800&display=swap');
+
+body {
+    font-family: 'Barlow', sans-serif;
+    margin : 0;
+    background-color: aliceblue;
+}
+.myazul{
+    background-color: #191970;
+}
