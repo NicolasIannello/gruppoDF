@@ -1,11 +1,15 @@
-<div>
-    <span class="df">{{textoImagen}}</span>
-    <img src="FORD.jpg" alt="Gruppo DF">
+<div class="img">
+    <span class="df back border">{{textoImagen}}</span>
 </div>
 <div class="soluciones">
-    <h1>Soluciones</h1>
-    <div style="display: inline-flex;">
-        <div class="card" *ngFor="let card of cards">{{card}}</div>
+    <h1>SOLUCIONES</h1>
+    <div>
+        <ng-container *ngFor="let card of cards">
+            <div class="card background " [ngStyle]="{'background-image': 'url('+card.img+')',}">
+                <span class="filters border">
+                    <p class="border pill">{{card.text}}</p>
+                </span>
+            </div>
+        </ng-container>
     </div>
 </div>
-

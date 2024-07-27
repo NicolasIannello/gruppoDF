@@ -1,14 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Barlow:800&display=swap');
 
+:root {
+    --azul: #191970;
+    --grey: slategrey;
+    --text: azure;
+}
+
 body {
     font-family: 'Barlow', sans-serif;
     margin : 0;
-    background-color: aliceblue;
+    background-color: var(--text);
     margin-top: 7rem;
     /* margin-right: 2rem;
     margin-left: 2rem; */
 }
 .myazul{
-    background-color: #191970;
+    background-color: var(--azul);
+}
+.border{
+    border: solid;
+    border-radius: 1rem;
+    border-color: var(--grey);
 }

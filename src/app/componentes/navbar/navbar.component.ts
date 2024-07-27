@@ -10,7 +10,7 @@ import { Router, RouterModule } from '@angular/router';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-  activa:string='inicio';
+  activa:string='';
 
   constructor(private router: Router){ }
 

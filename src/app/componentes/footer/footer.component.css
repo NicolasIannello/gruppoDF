@@ -1,0 +1,20 @@
+.footer{
+    background-color: var(--grey);
+    margin-top: 3rem;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    div, h1{
+        display: inline-flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 3rem;
+        div{
+            margin-top: 1rem;
+        }
+    }
+}
+.end{
+    margin-bottom: 3rem;
+}

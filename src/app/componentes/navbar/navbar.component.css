@@ -5,7 +5,7 @@
     left: 0;
     width:100%;
     z-index:100;
-    color: azure;
+    color: var(--text);
     display: flex;
     font-size: x-large;
     flex-wrap: wrap;
@@ -20,7 +20,7 @@
     font-weight: bold;
     transition: all 0.3s ease-in-out;
     &:hover {
-        background-color: aliceblue;
+        background-color: var(--text);
         transform: skew(20deg);
         span {
             transform: skew(-20deg);
@@ -39,8 +39,8 @@
     transition: all 0.3s ease-in-out;
 }
 .activa{
-    background-color: aliceblue;
-    color: #191970;        
+    background-color: var(--text);
+    color: var(--azul);;        
     transform: skew(20deg);
     span {
         transform: skew(-20deg);
