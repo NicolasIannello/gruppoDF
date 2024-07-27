@@ -1,0 +1,27 @@
+img{
+    width: 100%;
+    max-height: 500px;
+}
+.df{
+    position: absolute;
+    top: 34%;
+    left: 70%;
+    color: azure;
+    font-size: xxx-large;
+}
+.soluciones{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+.card{
+    border: solid;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}

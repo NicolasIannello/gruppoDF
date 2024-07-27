@@ -1,7 +1,10 @@
 .navbar{
-    position: absolute;
+    position: fixed;
     height: 8%;
-    width: 100%;
+    top:0;
+    left: 0;
+    width:100%;
+    z-index:100;
     color: azure;
     display: flex;
     font-size: x-large;
@@ -15,9 +18,8 @@
     flex-wrap: wrap;
     cursor: pointer;
     font-weight: bold;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
     &:hover {
-        color: #191970;
         background-color: aliceblue;
         transform: skew(20deg);
         span {
@@ -25,11 +27,16 @@
         }
     }
 }
+.colortext{
+    &:hover {
+        color: #191970;
+    }
+}
 .navtext{
     width: 6.8rem;
     align-content: center;
     text-align: center;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .activa{
     background-color: aliceblue;
