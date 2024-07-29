@@ -3,23 +3,27 @@
 
 :root {
     --azul: #191970;
+    --azul2: rgb(25, 25, 112, .85);
     --grey: slategrey;
     --text: azure;
 }
 
 body {
-    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin : 0;
     background-color: var(--text);
     margin-top: 7rem;
     /* margin-right: 2rem;
     margin-left: 2rem; */
 }
-.myazul{
-    background-color: var(--azul);
-}
 .border{
     border: solid;
-    border-radius: 1rem;
     border-color: var(--grey);
+}
+.rounded{
+    border-radius: 1rem;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

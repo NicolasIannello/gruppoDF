@@ -1,13 +1,13 @@
-<div class="img">
-    <span class="df back border">{{textoImagen}}</span>
+<div class="img shadow">
+    <span class="df back backskrew shadow"><span>{{textoImagen}}</span></span>
 </div>
 <div class="soluciones">
-    <h1>SOLUCIONES</h1>
+    <h1 class="backskrew shadow"><span class="unskrew">SOLUCIONES</span></h1>
     <div>
         <ng-container *ngFor="let card of cards">
-            <div class="card background " [ngStyle]="{'background-image': 'url('+card.img+')',}">
-                <span class="filters border">
-                    <p class="border pill">{{card.text}}</p>
+            <div class="card background rounded shadow" [ngStyle]="{'background-image': 'url('+card.img+')',}">
+                <span class="filters border rounded">
+                    <p class="border pill rounded">{{card.text}}</p>
                 </span>
             </div>
         </ng-container>

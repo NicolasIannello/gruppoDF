@@ -7,7 +7,7 @@
     border-bottom: solid;
     border-top: solid;
     border-width: thick;
-    border-color: var(--grey);
+    border-color: white;
 }
 .df{
     color: var(--text);
@@ -59,4 +59,18 @@
     border-width: thin;
     display: flex;
     align-items: center;
+    font-weight: bold;
+}
+.backskrew{
+    background-color: var(--azul2);
+    color: var(--text);
+    transform: skew(20deg);
+    border-left: solid;
+    border-right: solid;
+    border-color: white;
+    border-width: 0.2rem;
+    span {
+        display: block;
+        transform: skew(-20deg);
+    }
 }

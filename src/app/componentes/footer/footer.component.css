@@ -18,3 +18,8 @@
 .end{
     margin-bottom: 3rem;
 }
+.ref:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: var(--azul);
+}
