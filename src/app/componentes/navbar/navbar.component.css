@@ -5,13 +5,14 @@
     left: 0;
     width:100%;
     z-index:100;
-    color: var(--text);
+    color: var(--color4);
     display: flex;
     font-size: x-large;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: var(--azul2);
+    background-color: var(--color1D);
     backdrop-filter: blur(10px);
+    font-family: Avenir;
 }
 .btnnav{
     margin-inline: 0.5rem;
@@ -23,7 +24,7 @@
     transition: all 0.3s ease-in-out;
     transform: skew(20deg);
     /* &:hover {
-        background-color: var(--text);
+        background-color: var(--color3);
         transform: skew(20deg);
     } */
     span {
@@ -31,9 +32,10 @@
         align-content: center;
         text-align: center;
         transition: all 0.15s ease-in-out;
-        transform: skew(-20deg);
+        transform: skew(0deg);
+        font-style: italic;
         &:hover{
-            color: var(--azul);
+            color: var(--color2);
         }
     }
 }
@@ -49,7 +51,7 @@
     width: 100%;
     height: 100%;
     float: inline-end;
-    background-color: var(--text);
+    background-color: var(--color3);
     opacity: 1;
 }
 .btnnav:hover:before {
@@ -57,6 +59,6 @@
     opacity: 1;
 }
 .activa{
-    background-color: var(--text);
-    color: var(--azul);
+    background-color: var(--color3);
+    color: var(--color2);
 }

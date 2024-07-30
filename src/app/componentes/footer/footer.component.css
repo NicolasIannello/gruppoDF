@@ -1,25 +1,30 @@
 .footer{
-    background-color: var(--grey);
+    background-color: var(--color2);
     margin-top: 3rem;
     height: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    div, h1{
-        display: inline-flex;
+    div, h1, span{
+        /* display: inline-flex; */
+        margin-bottom: 2rem;
         flex-direction: column;
         position: relative;
         margin-left: 3rem;
+        color: var(--color4);
         div{
+            margin-top: 1rem;
+            &:hover{
+                cursor: pointer;
+                text-decoration: underline;
+                color: var(--color1);
+            }
+        }
+        span{
             margin-top: 1rem;
         }
     }
 }
 .end{
     margin-bottom: 3rem;
-}
-.ref:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    color: var(--azul);
 }

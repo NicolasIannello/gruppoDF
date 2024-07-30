@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './inicio.component.css'
 })
 export class InicioComponent {
-  textoImagen:string='Gruppo DF'
 }
