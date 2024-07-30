@@ -8,6 +8,7 @@
     width: 50%;
     border-right: none;
     color: var(--color4);
+    background-color: var(--color1);
 }
 .caja2{
     width: 50%;
@@ -18,6 +19,9 @@
     }
 }
 .caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-width: 0.4rem;
 }
 .text{
@@ -31,4 +35,7 @@
     line-height: 130%;
     font-size: 150%;
     font-style: italic;
+    @media (max-width: 400px) {
+        font-size: large;
+    }
 }

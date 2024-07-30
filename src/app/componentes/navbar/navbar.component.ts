@@ -1,5 +1,5 @@
 import { CommonModule, ViewportScroller } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -10,6 +10,9 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   activa:string='inicio';
+  @Input() widthC: number | undefined;
+  @Input() cap: number | undefined;
+  menuOpen:boolean=false;
 
   constructor(private scroller: ViewportScroller){ }
 
@@ -18,5 +21,10 @@ export class NavbarComponent {
     //this.router.navigate(['/'+tab]);
     this.scroller.setOffset([0, 150]);
     this.scroller.scrollToAnchor(tab);
+    this.menuOpen=false;
+  }
+
+  open(){
+    this.menuOpen=!this.menuOpen;
   }
 }

@@ -3,7 +3,7 @@
     height: 8%;
     top:0;
     left: 0;
-    width:100%;
+    width:100vw;
     z-index:100;
     color: var(--color4);
     display: flex;
@@ -61,4 +61,40 @@
 .activa{
     background-color: var(--color3);
     color: var(--color2);
+}
+i{
+    height: 100%;
+    width: 100%;
+    font-size: xxx-large;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    justify-content: flex-end;
+}
+.menu{
+    font-family: Avenir;
+    transform: scale3d(1, 1, 1);
+    transform-origin: top;
+    transition: all 0.3s ease-in;
+    height: 100%;
+    position: fixed;
+    color: var(--color4);
+    background-color: var(--color1D);
+    width: 100%;
+    z-index: 2;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div{
+        margin: 3rem;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+}
+.none{
+    transform: scale3d(1, 0, 1);
+    visibility: hidden;
+    opacity: 0;
 }

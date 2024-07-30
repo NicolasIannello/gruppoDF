@@ -10,7 +10,7 @@
         margin-bottom: 2rem;
         flex-direction: column;
         position: relative;
-        margin-left: 3rem;
+        margin-left: 2rem;
         color: var(--color4);
         div{
             margin-top: 1rem;
@@ -24,6 +24,9 @@
             margin-top: 1rem;
         }
     }
+}
+.mobile{
+    flex-direction: column;
 }
 .end{
     margin-bottom: 3rem;

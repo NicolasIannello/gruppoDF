@@ -1,5 +1,5 @@
 import { CommonModule, NgForOf } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-servicios',
@@ -9,6 +9,9 @@ import { Component } from '@angular/core';
   styleUrl: './servicios.component.css'
 })
 export class ServiciosComponent {
+  @Input() widthC: number | undefined;
+  @Input() cap: number | undefined;
+  
   cards:Array<any>=[
     { text:"COMPRA DE AUTOS SINIESTRADOS",
       img:"auto.png"},

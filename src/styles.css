@@ -23,7 +23,7 @@ body {
     font-family: Helvetica Neue;
     margin : 0;
     background-color: var(--color3);
-    margin-top: 7rem;
+    /* margin-top: 7rem; */
     /* margin-right: 2rem;
     margin-left: 2rem; */
 }
