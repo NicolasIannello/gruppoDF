@@ -1,0 +1,12 @@
+<div class="soluciones">
+    <h1 class="backskrew shadow"><span class="unskrew">SOLUCIONES</span></h1>
+    <div>
+        <ng-container *ngFor="let card of cards">
+            <div class="card background rounded shadow" [ngStyle]="{'background-image': 'url('+card.img+')',}">
+                <span class="filters border rounded">
+                    <p class="border pill rounded">{{card.text}}</p>
+                </span>
+            </div>
+        </ng-container>
+    </div>
+</div>

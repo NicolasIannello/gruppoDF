@@ -1,0 +1,33 @@
+.box{
+    width: 70%;
+    height: 40rem;
+    display: inline-flex;
+}
+.caja1{
+    width: 50%;
+    border-right: none;
+}
+.caja2{
+    width: 50%;
+    border-left: none;
+    background-color: var(--text);
+    span{
+        color: black;
+    }
+}
+.caja{
+    border-color: black;
+    border-width: 0.4rem;
+}
+.text{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: justify;
+    transform: skew(0deg);
+    margin: 2rem;
+    font-weight: bold;
+    line-height: 200%;
+    font-size: 150%;
+}

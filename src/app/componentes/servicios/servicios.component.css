@@ -1,0 +1,28 @@
+.card{
+    display: inline-flex;
+    height: 13rem;
+    width: 13rem;       
+    margin: 2rem;
+    vertical-align: middle;
+    span{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.background{
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.filters{
+    backdrop-filter: grayscale(2) blur(3px);
+}
+.pill{
+    background-color: rgb(111, 128, 144, .5);
+    border-width: thin;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}

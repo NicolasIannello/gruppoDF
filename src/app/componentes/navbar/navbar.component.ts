@@ -1,21 +1,22 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, ViewportScroller } from '@angular/common';
 import { Component } from '@angular/core';
-import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-  activa:string='';
+  activa:string='inicio';
 
-  constructor(private router: Router){ }
+  constructor(private scroller: ViewportScroller){ }
 
   activar(tab:string){
     this.activa=tab;
-    this.router.navigate(['/'+tab]);
+    //this.router.navigate(['/'+tab]);
+    this.scroller.setOffset([0, 150]);
+    this.scroller.scrollToAnchor(tab);
   }
 }

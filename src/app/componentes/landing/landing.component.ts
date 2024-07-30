@@ -1,23 +1,13 @@
-import { CommonModule, NgForOf } from '@angular/common';
 import { Component } from '@angular/core';
+import { InicioComponent } from "../inicio/inicio.component";
+import { ServiciosComponent } from "../servicios/servicios.component";
+import { NosotrosComponent } from "../nosotros/nosotros.component";
 
 @Component({
   selector: 'app-landing',
   standalone: true,
-  imports: [NgForOf, CommonModule],
+  imports: [InicioComponent, ServiciosComponent, NosotrosComponent],
   templateUrl: './landing.component.html',
   styleUrl: './landing.component.css'
 })
-export class LandingComponent {
-  textoImagen:string='Gruppo DF'
-  cards:Array<any>=[
-    { text:"COMPRA DE AUTOS SINIESTRADOS",
-      img:"auto.png"},
-    { text:"SUBASTAS Y LICITACIONES WEB",
-      img:"web.png"},
-    { text:"BAJAS CON RECUPERO DE PIEZAS",
-      img:"rueda.PNG"}, 
-    { text:"GESTION DE SCRAP",
-      img:"scrap.jpg"}
-  ]
-}
+export class LandingComponent {}

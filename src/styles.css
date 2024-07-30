@@ -7,7 +7,9 @@
     --grey: slategrey;
     --text: azure;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     /* font-family: 'Barlow', sans-serif; */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -26,4 +28,24 @@ body {
 }
 .shadow{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.backskrew{
+    background-color: var(--azul2);
+    color: var(--text);
+    transform: skew(20deg);
+    border-left: solid;
+    border-right: solid;
+    border-color: white;
+    border-width: 0.2rem;
+    span {
+        display: block;
+        transform: skew(-20deg);
+    }
+}
+.soluciones{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+    color: var(--azul);
 }

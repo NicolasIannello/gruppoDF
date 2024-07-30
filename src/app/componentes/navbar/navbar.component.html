@@ -1,7 +1,7 @@
 <div class="navbar shadow">
     <!-- <div><img src="" alt="Gruppo DF"></div>  -->
     <div>
-        <div class="btnnav" [ngClass]="{'activa' : activa==''}" (click)="activar('')"><span>Inicio</span></div>
+        <div class="btnnav" [ngClass]="{'activa' : activa=='inicio'}" (click)="activar('inicio')"><span>Inicio</span></div>
         <div class="btnnav" [ngClass]="{'activa' : activa=='servicios'}" (click)="activar('servicios')"><span>Servicios</span></div>
         <div class="btnnav" [ngClass]="{'activa' : activa=='nosotros'}" (click)="activar('nosotros')"><span>Nosotros</span></div>
         <div class="btnnav" [ngClass]="{'activa' : activa=='contacto'}" (click)="activar('contacto')"><span>Contacto</span></div>
