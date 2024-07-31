@@ -1,28 +1,12 @@
-.box{
-    width: 70%;
-    /* height: 40rem; */
-    display: inline-flex;
-    margin-bottom: 2rem;
-}
 .caja1{
-    width: 50%;
-    border-right: none;
     color: var(--color4);
     background-color: var(--color1);
 }
 .caja2{
-    width: 50%;
-    border-left: none;
     background-color: var(--color3);
     span{
-        color: var(--color2);
+        color: black
     }
-}
-.caja{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-width: 0.4rem;
 }
 .text{
     display: flex;
@@ -30,11 +14,9 @@
     align-items: center;
     justify-content: flex-start;
     text-align: justify;
-    transform: skew(0deg);
     margin: 2rem;
     line-height: 130%;
     font-size: 150%;
-    font-style: italic;
     @media (max-width: 400px) {
         font-size: large;
     }

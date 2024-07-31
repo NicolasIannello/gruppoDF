@@ -9,11 +9,17 @@
     --color2: slategrey;
     --color3: azure; */
     /* ---------------------------- */
-    --color1: rgb(189, 164, 136);
+    /* --color1: rgb(189, 164, 136);
     --color1D: rgb(189, 164, 136, .85);
     --color2: #e2f4f7;
     --color3: #2e2e2d;
-    --color4: black;
+    --color4: black; */
+    /* ---------------------------- */
+    --color1: rgb(25, 50, 60);
+    --color1D: rgb(25, 50, 60, .85);
+    --color2: #5688C7;
+    --color3: #F9F9F9;
+    --color4: white;
 }
 html{
     scroll-behavior: smooth;
@@ -30,6 +36,13 @@ body {
 h1{
     font-family: Avenir;
 }
+.sub{
+    color: var(--color2);
+    border-bottom: solid;
+    span{
+        color: black;
+    }
+}
 .border{
     border: solid;
     /* border-color: var(--color2); */
@@ -43,15 +56,12 @@ h1{
 .backskrew{
     background-color: var(--color1D);
     color: var(--color4);
-    transform: skew(20deg);
     border-left: solid;
     border-right: solid;
     border-color: white;
     border-width: 0.2rem;
     span {
         display: block;
-        transform: skew(0deg);
-        font-style: italic;
     }
 }
 .soluciones{
@@ -59,5 +69,27 @@ h1{
     margin-right: 2rem;
     text-align: center;
     margin-top: 5rem;
-    color: var(--color1);
+}
+.box{
+    width: 70%;
+    /* height: 40rem; */
+    display: inline-flex;
+    margin-bottom: 2rem;
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
+    @media (min-width: 800px) {
+        flex-direction: row;
+    }
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 800px) {
+        width: 100%;
+    }
+    @media (min-width: 800px) {
+        width: 50%;
+    }
 }

@@ -17,7 +17,7 @@
             &:hover{
                 cursor: pointer;
                 text-decoration: underline;
-                color: var(--color1);
+                color: black;
             }
         }
         span{
