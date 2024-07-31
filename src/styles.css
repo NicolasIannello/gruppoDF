@@ -75,10 +75,10 @@ h1{
     /* height: 40rem; */
     display: inline-flex;
     margin-bottom: 2rem;
-    @media (max-width: 800px) {
+    @media (max-width: 950px) {
         flex-direction: column;
     }
-    @media (min-width: 800px) {
+    @media (min-width: 950px) {
         flex-direction: row;
     }
 }
@@ -86,10 +86,10 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    @media (max-width: 800px) {
+    @media (max-width: 950px) {
         width: 100%;
     }
-    @media (min-width: 800px) {
+    @media (min-width: 950px) {
         width: 50%;
     }
 }
