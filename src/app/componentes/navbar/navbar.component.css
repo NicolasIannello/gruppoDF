@@ -9,10 +9,24 @@
     display: flex;
     font-size: x-large;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     background-color: var(--color2);
     backdrop-filter: blur(10px);
     font-family: Avenir;
+}
+.logo{
+    margin-inline: 0.5rem;
+    height: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    transform: skew(0deg);
+    span {
+        width: 9rem;
+        align-content: center;
+        text-align: center;
+        transform: skew(0deg);
+    }
 }
 .btnnav{
     margin-inline: 0.5rem;
@@ -63,7 +77,7 @@
 }
 i{
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
     font-size: xxx-large;
     display: flex;
     align-items: center;

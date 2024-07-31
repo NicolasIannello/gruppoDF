@@ -15,7 +15,7 @@ export class AppComponent implements OnInit{
   injector = inject(Injector);
   title = 'gruppodf';
   width:number | undefined;
-  cap:number = 700;
+  cap:number = 800;
 
   ngOnInit() {
     afterNextRender(() => this.width=window.innerWidth, {injector: this.injector});
