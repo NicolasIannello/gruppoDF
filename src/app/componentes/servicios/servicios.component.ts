@@ -14,12 +14,12 @@ export class ServiciosComponent {
   
   cards:Array<any>=[
     { text:"COMPRA DE AUTOS SINIESTRADOS",
-      img:"auto.png"},
+      img:"fa-car-burst"},
     { text:"SUBASTAS Y LICITACIONES WEB",
-      img:"web.png"},
+      img:"fa-globe"},
     { text:"BAJAS CON RECUPERO DE PIEZAS",
-      img:"rueda.PNG"}, 
+      img:"fa-screwdriver-wrench"}, 
     { text:"GESTION DE SCRAP",
-      img:"scrap.jpg"}
+      img:"fa-gear"}
   ]
 }

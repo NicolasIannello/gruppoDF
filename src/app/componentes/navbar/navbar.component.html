@@ -1,4 +1,4 @@
-<div class="navbar shadow">
+<div class="navbar glass">
     <!-- <div><img src="" alt="Gruppo DF"></div>  -->
     <div class="logo"><span>Gruppo DF</span></div>
     <div *ngIf="widthC!=undefined && cap!=undefined && widthC>cap else mobile">
@@ -11,7 +11,7 @@
         <i [ngClass]="{'fa-bars' : !menuOpen, 'fa-xmark' : menuOpen}" class="fa-solid" (click)="open()"></i>
     </ng-template>
 </div>
-<div class="menu" [ngClass]="{'none' : !menuOpen}">
+<div class="menu glass" [ngClass]="{'none' : !menuOpen}">
     <div (click)="activar('inicio')"><span>Inicio</span></div>
     <div (click)="activar('servicios')"><span>Servicios</span></div>
     <div (click)="activar('nosotros')"><span>Nosotros</span></div>

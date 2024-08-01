@@ -1,17 +1,22 @@
 .footer{
-    background-color: var(--color2);
+    background-color: var(--amarello);
     margin-top: 3rem;
     height: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    h1{
+        color: var(--black);
+    }
+    div, span{
+        color: var(--white);
+    }
     div, h1, span{
         /* display: inline-flex; */
         margin-bottom: 2rem;
         flex-direction: column;
         position: relative;
         margin-left: 2rem;
-        color: var(--color4);
         div{
             margin-top: 1rem;
             &:hover{
