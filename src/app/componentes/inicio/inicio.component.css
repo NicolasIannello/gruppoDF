@@ -1,9 +1,15 @@
 .inicio{
     border-left: 5px solid;
+    /*https://www.freepik.es/foto-gratis/fila-coches-nuevos-puerto_13180844.htm#fromView=search&page=1&position=18&uuid=7ea80da8-0034-447a-b4d1-6d54096126bd 
+    Imagen de tawatchai07 en Freepik*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("../../../../public/806.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-color: var(--amarello);
     height: 80%;
     p{
-        color: var(--black);
+        color: var(--white);
         padding-left: 5rem;
         font-size: xxx-large;
         height: 41%;
