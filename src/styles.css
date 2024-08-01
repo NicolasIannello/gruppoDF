@@ -31,26 +31,25 @@ h1{
     border-bottom: solid 1px;
     margin-top: 5%;
 }
-.tb{
+.tn{
     border-color: var(--blue);
 }
-.tn{
+.tb{
     border-color: var(--amarello);
-    color: var(--white);
 }
 .glass {
-    background-color: rgba(228, 176, 16);  
+    background-color: var(--blue);  
 }
 .glassT {
     backdrop-filter: blur(17px) saturate(179%);
     -webkit-backdrop-filter: blur(17px) saturate(179%);
-    background-color: rgba(228, 176, 0.75);  
+    background-color: var(--blueD);  
 }
 .rounded{
     border-radius: 12px;
 }
 .border{
-    border: 1px solid rgba(228, 176, 16, 0.15);
+    border: 1px solid rgba(48, 131, 220, 0.15);
 }
 .svh{
     height: 100vh;
