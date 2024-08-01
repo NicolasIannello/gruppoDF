@@ -2,8 +2,8 @@
     <h1 class="titulos tn">Soluciones</h1>
     <div class="cartas">
         <div class="card border rounded" *ngFor="let card of cards, index as i">
-            <div class="lineaA glass"> 
-                <i class="fa-solid " [ngClass]="card.img"></i>
+            <div class="lineaA"> 
+                <i class="glass border rounded fa-solid " [ngClass]="card.img"></i>
                 <p class="">{{card.text}}</p>
             </div>
             <div class="lineaB">otro texto</div>
