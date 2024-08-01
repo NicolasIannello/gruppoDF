@@ -1,9 +1,9 @@
 .inicio{
     border-left: 5px solid;
-    border-color: var(--amarello);
+    border-color: var(--blue);
     height: 80%;
     p{
-        color: var(--white);
+        color: var(--black);
         padding-left: 5rem;
         font-size: xxx-large;
         height: 41%;

@@ -1,8 +1,8 @@
 .cardA{
-    background-color: var(--amarelloD);
+    background-color: var(--blueD);
 }
 .cardB{
-    color: var(--white);
+    color: var(--black);
 }
 .card{
     width: 50%;

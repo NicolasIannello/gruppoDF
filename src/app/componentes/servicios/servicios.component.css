@@ -2,6 +2,10 @@
     height: 70vh;
     background-color: var(--white);
     text-align: center;
+    background-image: url('../../../../public/blurry-gradient-haikei.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: var(--white);
 }
 .card{
     width: 25rem;

@@ -9,13 +9,14 @@
     --amarelloD: rgba(228, 176, 16, 0.75);
     --black: rgb(20,20,20);
     --white: #F9F9F9;
-    --blue: #3083DC
+    --blue: rgb(48, 131, 220);
+    --blueD: rgba(48, 131, 220, 0.75);
 }
 html{
     scroll-behavior: smooth;
-    background-image: url('../public/blurry-gradient-haikei.png');
+    /* background-image: url('../public/blurry-gradient-haikei.png');
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:cover; */
 }
 body {
     font-family: Helvetica Neue;
