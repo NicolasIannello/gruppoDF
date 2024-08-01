@@ -8,8 +8,12 @@
         font-size: xxx-large;
         height: 41%;
         align-content: center;
-        @media (max-width: 650px){
+        font-family: 'avenir';
+        @media (max-width: 920px){
             font-size: xx-large;
+        }
+        @media (max-width: 600px){
+            font-size: x-large;
             padding-left: 2rem;
         }
         span{

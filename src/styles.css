@@ -40,10 +40,13 @@ h1{
 .glass {
     background-color: var(--blue);  
 }
-.glassT {
+.glassTrue {
     backdrop-filter: blur(17px) saturate(179%);
     -webkit-backdrop-filter: blur(17px) saturate(179%);
     background-color: var(--blueD);  
+    span{
+        color: var(--white);
+    }
 }
 .rounded{
     border-radius: 12px;
