@@ -1,0 +1,28 @@
+.cardA{
+    background-color: var(--amarelloD);
+}
+.cardB{
+    color: var(--white);
+}
+.card{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    padding: 2rem;
+    font-size: xxx-large;
+    align-items: center;
+    @media (max-width: 1200px){
+        font-size: xx-large;
+    }
+    @media (max-width: 700px){
+        font-size: x-large;
+        width: 70%;
+    }
+}
+.cartas{
+    display: flex;
+    align-items: center;
+    @media (max-width: 700px){
+        flex-direction: column;
+    }
+}

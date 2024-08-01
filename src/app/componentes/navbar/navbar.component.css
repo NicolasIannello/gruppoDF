@@ -63,7 +63,7 @@
     width: 9rem;
     height: 100%;
     float: inline-end;
-    background-color: var(--color3);
+    background-color: var(--white);
     opacity: 1;
 }
 .btnnav:hover:before {
@@ -71,7 +71,7 @@
     opacity: 1;
 }
 .activa{
-    background-color: var(--color3);
+    background-color: var(--white);
     color: black;
 }
 i{

@@ -1,14 +1,12 @@
-<div class="soluciones2 bgw">
-    <h1 class="sub2"><span>SOLUCIONES</span></h1>
-    <div>
-        <ng-container *ngFor="let card of cards">
-            <div class="card background rounded border">
-            <!-- <div class="card background rounded border" [ngStyle]="{'background-image': 'url('+card.img+')',}"> -->
-                <span class="rounded">
-                    <p class="glass pill rounded border">{{card.text}}</p>
-                    <i class="fa-solid " [ngClass]="card.img"></i>
-                </span>
+<div class="seccion serv">
+    <h1 class="titulos tb">Soluciones</h1>
+    <div class="cartas">
+        <div class="card border rounded" *ngFor="let card of cards, index as i">
+            <div class="lineaA glass"> 
+                <i class="fa-solid " [ngClass]="card.img"></i>
+                <p class="">{{card.text}}</p>
             </div>
-        </ng-container>
+            <div class="lineaB">otro texto</div>
+        </div>
     </div>
 </div>

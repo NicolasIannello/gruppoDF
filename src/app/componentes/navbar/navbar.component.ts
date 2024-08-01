@@ -19,7 +19,11 @@ export class NavbarComponent {
   activar(tab:string){
     this.activa=tab;
     //this.router.navigate(['/'+tab]);
-    this.scroller.setOffset([0, 150]);
+    if(tab=='servicios') {
+      this.scroller.setOffset([0, 150]);
+    }else{
+      this.scroller.setOffset([0, 0]);
+    }
     this.scroller.scrollToAnchor(tab);
     this.menuOpen=false;
   }
