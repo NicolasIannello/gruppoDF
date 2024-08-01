@@ -1,5 +1,6 @@
 .cardA{
     background-color: var(--blueD);
+    color: var(--white);
 }
 .cardB{
     color: var(--black);
