@@ -39,9 +39,12 @@ h1{
     color: var(--white);
 }
 .glass {
+    background-color: rgba(228, 176, 16);  
+}
+.glassT {
     backdrop-filter: blur(17px) saturate(179%);
     -webkit-backdrop-filter: blur(17px) saturate(179%);
-    background-color: rgba(228, 176, 16);  
+    background-color: rgba(228, 176, 0.75);  
 }
 .rounded{
     border-radius: 12px;
