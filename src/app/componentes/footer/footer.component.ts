@@ -10,7 +10,7 @@ import { Router, RouterModule } from '@angular/router';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-  maps:string="https://www.google.com/maps/place/Triunvirato+2219,+B1611CHS+Don+Torcuato,+Provincia+de+Buenos+Aires/@-34.4956987,-58.6107253,15.75z/data=!4m5!3m4!1s0x95bcbb2532621b1d:0x3c6879dafb4b2ebe!8m2!3d-34.4951766!4d-58.6116785?entry=ttu";
+  maps:string="https://www.google.com/maps/place/Avenida+Leandro+Niceforo+Alem+250,+C1003AAP+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.6050318,-58.3741518,16.25z/data=!4m6!3m5!1s0x95a3352d42c97abb:0x9de2e64629f0f5ec!8m2!3d-34.6048462!4d-58.3703963!16s%2Fg%2F11sn_3vb0t?entry=ttu";
   number:string="+5491127605336";
   @Input() widthC: number | undefined;
   @Input() cap: number | undefined;

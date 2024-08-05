@@ -1,6 +1,5 @@
 <div class="navbar glass">
-    <!-- <div><img src="" alt="Gruppo DF"></div>  -->
-    <div class="logo"><span>Gruppo DF</span></div>
+    <div class="logo"><span>Gruppo DF</span><img style="height: 90%;" src="logo.png" alt="Gruppo DF"></div> 
     <div *ngIf="widthC!=undefined && cap!=undefined && widthC>cap else mobile">
         <div class="btnnav" [ngClass]="{'activa' : activa=='inicio'}" (click)="activar('inicio')"><span>Inicio</span></div>
         <div class="btnnav" [ngClass]="{'activa' : activa=='servicios'}" (click)="activar('servicios')"><span>Servicios</span></div>

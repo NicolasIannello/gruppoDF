@@ -6,6 +6,9 @@
     background-repeat:no-repeat;
     background-size:cover;
     color: var(--white);
+    @media (max-height: 800px){
+        height: 100vh;
+    }
 }
 .card{
     width: 25rem;
@@ -47,7 +50,7 @@
     margin-left: 1rem;
     margin-right: 1rem;
     border-top-right-radius: 12px;
-    border-bottom: 1px solid rgba(48, 131, 220, 0.15);
+    border-bottom: 1px solid rgb(255, 144, 0, 0.15)/*rgba(48, 131, 220, 0.15)*/;
     P{
         width: 100%;
     }
