@@ -24,9 +24,14 @@
             /* padding-left: 2rem; */
         }
         span{
-            color: var(--amarello);
+            /* color: var(--amarello); */
             /* text-transform: uppercase; */
             font-weight: 1000;
         }
     }
+}
+.pill{
+    background-color: var(--amarello);
+    border-radius: 12px;
+    height: 20% !important;
 }
