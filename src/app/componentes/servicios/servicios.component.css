@@ -33,6 +33,7 @@
     }
     @media (max-width: 400px){
         width: 10rem;
+        height: 20rem;
         margin: 0.15rem;
         font-size: x-small;
     }
