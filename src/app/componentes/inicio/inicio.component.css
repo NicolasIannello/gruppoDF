@@ -80,9 +80,7 @@
 }
 .cardB{
     color: var(--black);
-    @media (max-width: 900px){
-        justify-content: center;
-    }
+    justify-content: center;
     span{
         color: var(--amarello);
     }
