@@ -70,9 +70,9 @@
     position: absolute;
 }
 .shadow{
-    box-shadow: 0 15px 40px 12p rgba(0,0,0,0.3);
-    -webkit-box-shadow: 0 15px 40px 12p rgba(0,0,0,0.3);
-    -moz-box-shadow: 0 15px 40px 12p rgba(0,0,0,0.3);
+    box-shadow: 0 15px 40px 12px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 15px 40px 12px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 15px 40px 12px rgba(0,0,0,0.3);
 }
 .cardA{
     background-color: var(--blue);
