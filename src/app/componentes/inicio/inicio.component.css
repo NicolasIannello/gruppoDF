@@ -41,6 +41,7 @@
     width: 100%;
     /* top: 0;
     position: absolute; */
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,8 +70,8 @@
 .info{
     height: 50%;
     width: 90%;
-    bottom: 0;
-    position: absolute;
+    /* bottom: 0;
+    position: absolute; */
 }
 .shadow{
     width: 100%;
