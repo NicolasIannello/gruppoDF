@@ -83,20 +83,21 @@
 .cardB{
     color: var(--black);
     justify-content: center;
+    height: 10% !important;
     span{
         color: var(--amarello);
     }
 }
 .card{
     width: 50%;
-    height: 40%;
+    height: 30%;
     display: flex;
     padding: 2rem;
     font-size: xx-large;
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
-    @media (max-width: 1200px){
+    @media (max-width: 1500px){
         font-size: x-large;
     }
     @media (max-width: 900px){
