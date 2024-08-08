@@ -39,12 +39,15 @@
 .foto{
     height: 50%;
     width: 100%;
-    top: 0;
-    position: absolute;
+    /* top: 0;
+    position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     p{
         font-size: xxx-large;
-        align-content: center;
-        text-align: center;
+        /* align-content: center;
+        text-align: center; */
         @media (max-width: 920px){
             font-size: xx-large;
         }

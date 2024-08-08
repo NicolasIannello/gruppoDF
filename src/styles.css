@@ -63,6 +63,7 @@ h1{
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: flex-start;
 }
 .noventas{
     height: 90%;
