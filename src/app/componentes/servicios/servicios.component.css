@@ -2,7 +2,7 @@
     height: 80vh;
     background-color: var(--white);
     text-align: center;
-    background-image: url('../../../../public/blurry-gradient-haikei.png');
+    background-image: url('../../../../public/blurry-gradient-haikei.webp');
     background-repeat:no-repeat;
     background-size:cover;
     color: var(--white);

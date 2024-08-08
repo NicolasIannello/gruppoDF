@@ -69,12 +69,12 @@ h1{
     width: 90%;
 }
 .bgA{
-    background-image: url('../public/blurry-gradient-haikei1.png');
+    background-image: url('../public/blurry-gradient-haikei1.webp');
     background-repeat:no-repeat;
     background-size:cover;
 }
 .bgB{
-    background-image: url('../public/blurry-gradient-haikei2.png');
+    background-image: url('../public/blurry-gradient-haikei2.webp');
     background-repeat:no-repeat;
     background-size:cover;
 }
